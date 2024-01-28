@@ -1,0 +1,56 @@
+.container {
+  width: 100%;
+  max-width: 1440px;
+  background-color: var(--color-primary-orange);
+  margin: -10rem 0;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 3rem 0;
+}
+
+.autoCompleteContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.autoComplete {
+  background-color: white !important;
+}
+
+.label {
+  color: white !important;
+}
+
+.button {
+  color: rgb(73, 73, 73);
+  background-color: transparent;
+  border: 0.1px solid rgb(73, 73, 73);
+  border-radius: 5px;
+  padding: 1.5rem 2rem;
+  margin-left: 1rem;
+}
+
+.button:hover {
+  background-color: rgb(73, 73, 73);
+  color: white;
+}
+
+.radioContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+}
+
+.buttonContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-top: 2rem;
+}
